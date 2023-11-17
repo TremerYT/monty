@@ -5,7 +5,7 @@
  * @i: This shows the position of the line
  * Return: Nothing because its void
  */
-void node_pint(stack_t **header, unsigned int count)
+void node_pint(stack_t **header, unsigned int i)
 {
 	if (*header == NULL)
 	{
