@@ -7,7 +7,7 @@
  * Return: Nothing because its void
  */
 
-void queue_adder(stack_t **header, int a)
+void queue_adder(stack_t **header, int n)
 {
 	stack_t * new_one;
 	stack_t *outcome = *header;
@@ -17,7 +17,7 @@ void queue_adder(stack_t **header, int a)
 	{
 		printf("Error found\n");
 	}
-	new_one->a = a;
+	new_one->n = n;
 	new_one->next = NULL;
 	if (outcome)
 	{
