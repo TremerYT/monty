@@ -5,7 +5,7 @@
   *@i: This is the counter
   *Return: Nothing as it is void
  */
-void node_rotator(stack_t **head, __attribute__((unused)) unsigned int i)
+void node_rotator(stack_t **header, __attribute__((unused)) unsigned int i)
 {
 	stack_t *current_one;
 	stack_t *outcome;
