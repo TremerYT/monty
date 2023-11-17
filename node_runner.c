@@ -11,18 +11,18 @@ int node_runner(char *cont, stack_t **header, unsigned int i, FILE *file)
 {
 	char *op;
 	instruction_t tally[] = {
-				{"push", nod_push}, {"pall", node_Pall}, {"pint", node_Pint},
-				{"pop", node_pop}, {"swap", node_Swap}, {"add", node_Add},
-				{"nop", node_nop}, {"sub", node_Sub}, {"div", node_div},
-				{"mul", node_mul}, {"mod", node_Modulus}, {"pchar", node_pchar},
-				{"pstr", node_pstr}, {"rotl", node_Rotator}, {"rotr", node_Rotator2},
-				{"queue", node_queue}, {"stack", node_Stack}, {NULL, NULL}
+				{"push", node_push}, {"pall", node_pall}, {"pint", node_pint},
+				{"pop", node_pop}, {"swap", node_swap}, {"add", node_add},
+				{"nop", node_nop}, {"sub", node_sub}, {"div", node_div},
+				{"mul", node_mul}, {"mod", node_modulus}, {"pchar", node_pchar},
+				{"pstr", node_pstr}, {"rotl", node_rotator}, {"rotr", node_rotator2},
+				{"queue", node_queue}, {"stack", node_stack}, {NULL, NULL}
 				};
 	unsigned int index = 0;
-	int i = 7, j = 2;
+	int a = 7, j = 2;
 
 	op = strtok(cont, " \n\t");
-	node_exchanger(i, j);
+	node_exchanger(a, j);
 	if (op && op[0] == '#')
 		return (0);
 	ching.argument = strtok(NULL, " \n\t");
