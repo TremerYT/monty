@@ -14,7 +14,7 @@ void node_pop(stack_t **header, unsigned int i)
 		fprintf(stderr, "L%d: can't pop an empty stack\n", i);
 		fclose(ching.my_file);
 		free(ching.con);
-		clear_me(*header);
+		clear_part2(*header);
 		exit(EXIT_FAILURE);
 	}
 	a = *header;
