@@ -49,7 +49,7 @@ extern stub_t ching;
 
 void adele(stack_t **header, unsigned int i);
 void node_adder(stack_t **header, int i);
-void node_divider(stack_t **header, unsinged int i);
+void node_divider(stack_t **header, unsigned int i);
 void node_modulus(stack_t **header, unsigned int i);
 void node_nope(stack_t **header, unsigned int i);
 void node_mul(stack_t **header, unsigned int i);
