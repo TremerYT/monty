@@ -7,7 +7,7 @@
  * Return: Nothing i guess
  */
 
-void node_adder(stack_t **header, int i)
+void node_adder(stack_t **header, int n)
 {
 	stack_t *new_one;
 	stack_t *h;
@@ -25,7 +25,7 @@ void node_adder(stack_t **header, int i)
 		h->prev = new_one;
 	}
 
-	new_one->i = i;
+	new_one->n = n;
 	new_one->next = *header;
 	new_one->prev = NULL;
 
