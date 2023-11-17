@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * node_nop - This function does nothing
+ * node_nope - This function does nothing
  * @header: This is the header of the stack
  * @i: Th is is the position of the line
  * Return: nothing

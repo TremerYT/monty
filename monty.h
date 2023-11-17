@@ -69,7 +69,7 @@ void node_swap(stack_t **header, unsigned int i);
 void clear_part2(stack_t *head);
 void node_bus(int hea, int li);
 void node_exchanger(int i, int j);
-void node_queue(stack_t **head, unsigned int i);
+void node_queue(stack_t **header, unsigned int i);
 
 
 #endif

@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
- * node_push: This is used to push a node to atscak
+ * node_push- This is used to push a node to atscak
  * @header: This is the header of the stack
- * @b: This is the position of the line
+ * @i: This is the position of the line
  * Return: nothing as the function is void
 */
 void node_push(stack_t **header, unsigned int i)

@@ -3,7 +3,7 @@
 /**
  * node_adder - This function adds the head of the stack
  * @header: This is the header odf the stack
- * @a: this is the new entra
+ * @n: this is the new entra
  * Return: Nothing i guess
  */
 

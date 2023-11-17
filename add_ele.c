@@ -21,7 +21,6 @@ void adele(stack_t **header, unsigned int i)
 		h = h->next;
 		extent++;
 	}
-	
 	if (extent < 2)
 	{
 		fprintf(stderr, "L%d: can't add, stack too short", i);

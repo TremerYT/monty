@@ -2,14 +2,14 @@
 
 /**
  * queue_adder - This function adds the noden to the borrrom
- * @a: this is the new one
+ * @n: this is the new one
  * @header: This is the header
  * Return: Nothing because its void
  */
 
 void queue_adder(stack_t **header, int n)
 {
-	stack_t * new_one;
+	stack_t *new_one;
 	stack_t *outcome = *header;
 
 	new_one = malloc(sizeof(stack_t));

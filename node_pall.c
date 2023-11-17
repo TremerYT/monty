@@ -9,7 +9,7 @@
 
 void node_pall(stack_t **header, unsigned int i)
 {
-	stack_t * a;
+	stack_t *a;
 	(void)i;
 
 	a = *header;

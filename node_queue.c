@@ -4,9 +4,9 @@
  * @header: This is the header of the stack
  * @i: This is the line position number
 */
-void node_queue(stack_t **head, unsigned int i)
+void node_queue(stack_t **header, unsigned int i)
 {
-	(void)head;
+	(void)header;
 	(void)i;
 	ching.fin = 1;
 }
