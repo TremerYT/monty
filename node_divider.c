@@ -7,7 +7,7 @@
  * Return: This returns nothing as it is void
  */
 
-void node_divider(stack_t **header, int i)
+void node_divider(stack_t **header, unsigned int i)
 {
 	stack_t *h;
 	int extent, outcome;
