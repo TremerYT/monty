@@ -25,7 +25,7 @@ void node_modulus(stack_t **header, unsigned int i)
 		 fprintf(stderr, "L%d: can't mod, stack too short\n", i);
 		 fclose(ching.my_file);
 		 free(ching.con);
-		 clear_part2(*head);
+		 clear_part2(*header);
 		 exit(EXIT_FAILURE);
 	 }
 	 h = *header;
