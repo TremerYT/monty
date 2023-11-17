@@ -23,7 +23,7 @@ void node_push(stack_t **header, unsigned int i)
 			fprintf(stderr, "L%d: usage: push integer\n", i);
 			fclose(ching.my_file);
 			free(ching.con);
-			clear_me(*header);
+			clear_part2(*header);
 			exit(EXIT_FAILURE);
 		}
 	}
@@ -35,7 +35,7 @@ void node_push(stack_t **header, unsigned int i)
 		clear_part2(*header);
 		exit(EXIT_FAILURE);
 	}
-	n = _atoi(ching.argument);
+	n = atoi(ching.argument);
 	if (ching.fin == 0)
 		node_adder(header, n);
 	else
