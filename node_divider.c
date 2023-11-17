@@ -19,7 +19,7 @@ void node_divider(stack_t **header, int i)
 	while (h != NULL)
 	{
 		h = h->next;
-		extent++
+		extent++;
 	}
 	if (extent < 2)
 	{
