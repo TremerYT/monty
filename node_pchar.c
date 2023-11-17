@@ -8,7 +8,7 @@
 void node_pchar(stack_t **header, unsigned int i)
 {
 	stack_t *a;
-	int i = 5, j = 1;
+	int k = 5, j = 1;
 
 	a = *header;
 	if (a == NULL)
@@ -25,7 +25,7 @@ void node_pchar(stack_t **header, unsigned int i)
 		fclose(ching.my_file);
 		free(ching.con);
 		clear_part2(*header);
-		node_bus(i, j);
+		node_bus(k, j);
 		exit(EXIT_FAILURE);
 	}
 	printf("%c\n", a->n);
