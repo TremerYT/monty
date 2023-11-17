@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * node_divide - This function divides the first two elements
+ * node_divider - This function divides the first two elements
  * @header: This is the header of the node
  * @i: This is the position of the line
  * Return: This returns nothing as it is void
  */
 
-void node_div(stack_t **header, int i)
+void node_divider(stack_t **header, int i)
 {
 	stack_t *h;
 	int extent, outcome;
