@@ -13,7 +13,7 @@ int node_runner(char *cont, stack_t **header, unsigned int i, FILE *file)
 	instruction_t tally[] = {
 				{"push", node_push}, {"pall", node_pall}, {"pint", node_pint},
 				{"pop", node_pop}, {"swap", node_swap}, {"add", adele},
-				{"nop", node_nope}, {"sub", node_sub}, {"div", node_div},
+				{"nop", node_nope}, {"sub", node_sub}, {"div", node_divider},
 				{"mul", node_mul}, {"mod", node_modulus}, {"pchar", node_pchar},
 				{"pstr", node_pstr}, {"rotl", node_rotator}, {"rotr", node_rotator2},
 				{"queue", node_queue}, {"stack", node_stack}, {NULL, NULL}
