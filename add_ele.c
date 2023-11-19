@@ -23,7 +23,7 @@ void adele(stack_t **header, unsigned int i)
 	}
 	if (extent < 2)
 	{
-		fprintf(stderr, "L%d: can't add, stack too short", i);
+		fprintf(stderr, "L%d: can't add, stack too short\n", i);
 		fclose(ching.my_file);
 		free(ching.con);
 		clear_part2(*header);
