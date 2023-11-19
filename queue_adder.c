@@ -15,7 +15,7 @@ void queue_adder(stack_t **header, int n)
 	new_one = malloc(sizeof(stack_t));
 	if (new_one == NULL)
 	{
-		printf("Error found\n");
+		printf("Error\n");
 	}
 	new_one->n = n;
 	new_one->next = NULL;
@@ -24,7 +24,7 @@ void queue_adder(stack_t **header, int n)
 		while (outcome->next)
 			outcome = outcome->next;
 	}
-	else if (!outcome)
+	if (!outcome)
 	{
 		*header = new_one;
 		new_one->prev = NULL;
