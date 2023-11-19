@@ -16,10 +16,9 @@ void node_divider(stack_t **header, unsigned int i)
 
 	extent = 0;
 
-	while (h != NULL)
+	for (extent = 0; h != NULL; extent++)
 	{
 		h = h->next;
-		extent++;
 	}
 	if (extent < 2)
 	{
@@ -33,7 +32,7 @@ void node_divider(stack_t **header, unsigned int i)
 	h = *header;
 	if (h->n == 0)
 	{
-		fprintf(stderr, "L%d: division by zero", i);
+		fprintf(stderr, "L%d: division by zero\n", i);
 		fclose(ching.my_file);
 		free(ching.con);
 		clear_part2(*header);
